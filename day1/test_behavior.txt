@@ -1,0 +1,11 @@
+Start at 50.
+R50: Position 0, 1 zero.
+R50: Position 50, 1 zero.
+R100: Position 50, 2 zeros.
+R150: Position 50, 4 zeros. (R50 for +1 zero position 0, R100 for +1 zero in passing to position 0)
+L50: Position 50, 4 zeros
+L50: Position 0, 5 zeros
+L100: Position 0, should be +1 zero...
+L150: Position 50, +1 zero in passing
+
+Total of 7 zeros
